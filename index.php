@@ -18,7 +18,7 @@
                         header('Location: admin.php');
                     break;
                     case  2:
-                        $dbError='<div class="alert alert-warning"><strong>Warning!</strong> Error Usuario y/o Contrasena incorrecta.</div>';
+                        $dbError='<div class="alert alert-warning"><strong>Warning!</strong> Error 403 Usuario y/o Contrasena incorrecta.</div>';
                     break;
                     case  3:
                         $_SESSION["id"] = $row[0][1];
