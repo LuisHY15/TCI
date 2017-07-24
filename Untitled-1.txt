@@ -1,0 +1,636 @@
+<table align="center" width="900px">
+        <tr>
+            <td align="center">
+                <asp:Label ID="lblError" runat="server" ForeColor="Red"></asp:Label>
+            </td>
+        </tr>
+        <tr>
+             <td align="center">
+                <asp:MultiView ID="MultiView1" runat="server">
+                    <asp:View runat="server" ID="View1">
+                        <table align="center" style="width: 100%">
+                            <tr>
+                                <td style="padding: 5px; border: 1px solid #FFFFFF;" align="center">
+                                    <dx:ASPxGridView ID="GridViewPersonas" ClientInstanceName="grid" runat="server" KeyFieldName="PerId"
+                                        AutoGenerateColumns="False" ClientIDMode="AutoID" SettingsPager-AlwaysShowPager="True"
+                                        SettingsPager-NumericButtonCount="10" SettingsPager-PageSize="5" SettingsPager-EllipsisMode="OutsideNumeric"
+                                        SettingsPager-Mode="ShowPager" Settings-ShowGroupedColumns="true" Settings-ShowGroupPanel="True"
+                                        SettingsLoadingPanel-Text="Cargando&hellip;" Width="1270px" SettingsText-Title="Personas"
+                                        DataSourceID="SqlDataSource1" EnableTheming="True" >
+                                        <Columns>
+                                            <dx:GridViewCommandColumn ButtonType="Image" Caption=" " VisibleIndex="1" Width="70px"
+                                                ShowNewButton="false" ShowEditButton="True" ShowDeleteButton="true" ShowClearFilterButton="True" ShowNewButtonInHeader="true"  />
+                                            <dx:GridViewDataHyperLinkColumn EditCellStyle-ForeColor="Blue" Caption="" CellStyle-HorizontalAlign="Center"
+                                                VisibleIndex="4" HeaderStyle-HorizontalAlign="Center" Visible="true" 
+                                                Width="60px">
+                                                <EditCellStyle ForeColor="Blue">
+                                                </EditCellStyle>
+                                                <DataItemTemplate>
+                                                    <asp:LinkButton ID="lkbPerfil" runat="server" CommandName="Ir" Visible="True" ForeColor="Blue">Perfil...</asp:LinkButton>
+                                                </DataItemTemplate>
+                                                <EditFormSettings Visible="False" />
+                                                <HeaderStyle HorizontalAlign="Center" />
+                                                <CellStyle HorizontalAlign="Center">
+                                                </CellStyle>
+                                            </dx:GridViewDataHyperLinkColumn>
+                                            <dx:GridViewDataColumn VisibleIndex="5" FieldName="PerId" CellStyle-HorizontalAlign="Center"
+                                                HeaderStyle-HorizontalAlign="Center" Caption="Clave" Width="50px" EditCellStyle-HorizontalAlign="Left">
+                                                <EditFormSettings VisibleIndex="0" Visible="False" />
+                                                <EditCellStyle HorizontalAlign="Left">
+                                                </EditCellStyle>
+                                                <HeaderStyle HorizontalAlign="Center" />
+                                                <CellStyle HorizontalAlign="Center">
+                                                </CellStyle>
+                                            </dx:GridViewDataColumn>
+                                            <dx:GridViewDataColumn VisibleIndex="6" FieldName="PerNombres" CellStyle-HorizontalAlign="Center"
+                                                HeaderStyle-HorizontalAlign="Center" Caption="Nombre(s)" Width="140px" EditCellStyle-HorizontalAlign="Left">
+                                                <EditFormSettings VisibleIndex="0" Visible="true" />
+                                                <EditCellStyle HorizontalAlign="Left">
+                                                </EditCellStyle>
+                                                <HeaderStyle HorizontalAlign="Center" />
+                                                <CellStyle HorizontalAlign="Left">
+                                                </CellStyle>
+                                            </dx:GridViewDataColumn>
+                                            <dx:GridViewDataColumn VisibleIndex="7" FieldName="PerApellidoPaterno" CellStyle-HorizontalAlign="Center"
+                                                HeaderStyle-HorizontalAlign="Center" Caption="Apellido Paterno" Width="130px"
+                                                EditCellStyle-HorizontalAlign="Left">
+                                                <EditFormSettings VisibleIndex="0" Visible="true" />
+                                                <EditCellStyle HorizontalAlign="Left">
+                                                </EditCellStyle>
+                                                <HeaderStyle HorizontalAlign="Center" />
+                                                <CellStyle HorizontalAlign="Left">
+                                                </CellStyle>
+                                            </dx:GridViewDataColumn>
+                                            <dx:GridViewDataColumn VisibleIndex="8" FieldName="PerApellidoMaterno" CellStyle-HorizontalAlign="Center"
+                                                HeaderStyle-HorizontalAlign="Center" Caption="Apellido Materno" Width="130px"
+                                                EditCellStyle-HorizontalAlign="Left">
+                                                <EditFormSettings VisibleIndex="0" Visible="true" />
+                                                <EditCellStyle HorizontalAlign="Left">
+                                                </EditCellStyle>
+                                                <HeaderStyle HorizontalAlign="Center" />
+                                                <CellStyle HorizontalAlign="Left">
+                                                </CellStyle>
+                                            </dx:GridViewDataColumn>
+                                            <dx:GridViewDataColumn VisibleIndex="9" FieldName="PerClave" CellStyle-HorizontalAlign="Center"
+                                                HeaderStyle-HorizontalAlign="Center" Caption="Usuario" Width="80px" EditCellStyle-HorizontalAlign="Left">
+                                                <EditFormSettings VisibleIndex="0" Visible="true" />
+                                                <EditCellStyle HorizontalAlign="Left">
+                                                </EditCellStyle>
+                                                <HeaderStyle HorizontalAlign="Center" />
+                                                <CellStyle HorizontalAlign="Left">
+                                                </CellStyle>
+                                            </dx:GridViewDataColumn>
+                                            <dx:GridViewDataColumn VisibleIndex="10" FieldName="PerEmail" CellStyle-HorizontalAlign="Center"
+                                                HeaderStyle-HorizontalAlign="Center" Caption="E-mail" Width="190px" 
+                                                EditCellStyle-HorizontalAlign="Left">
+                                                <EditFormSettings VisibleIndex="0" Visible="true" />
+                                                <EditCellStyle HorizontalAlign="Left">
+                                                </EditCellStyle>
+                                                <HeaderStyle HorizontalAlign="Center" />
+                                                <CellStyle HorizontalAlign="Left">
+                                                </CellStyle>
+                                            </dx:GridViewDataColumn>
+                                            <dx:GridViewDataDateColumn FieldName="PerFechaVigencia" VisibleIndex="11" Visible="True"
+                                                Caption="Vigencia" CellStyle-HorizontalAlign="Center" HeaderStyle-HorizontalAlign="Center"
+                                                Width="90px">
+                                                <EditFormSettings VisibleIndex="0" Visible="false" />
+                                                <HeaderStyle HorizontalAlign="Center"></HeaderStyle>
+                                                <CellStyle HorizontalAlign="Center">
+                                                </CellStyle>
+                                            </dx:GridViewDataDateColumn>
+                                            <dx:GridViewDataCheckColumn VisibleIndex="12" FieldName="PerClaveTemporal" CellStyle-HorizontalAlign="Center"
+                                                HeaderStyle-HorizontalAlign="Center" Caption="Temp" Visible="true" PropertiesCheckEdit-DisplayTextChecked="Temporal"
+                                                PropertiesCheckEdit-DisplayTextUnchecked="Inactivo" EditCellStyle-HorizontalAlign="Left"
+                                                Width="30px">
+                                                <EditFormSettings VisibleIndex="0" Visible="false" />
+                                                <PropertiesCheckEdit>
+                                                </PropertiesCheckEdit>
+                                                <EditCellStyle HorizontalAlign="Left">
+                                                </EditCellStyle>
+                                                <HeaderStyle HorizontalAlign="Center" />
+                                                <CellStyle HorizontalAlign="Center">
+                                                </CellStyle>
+                                            </dx:GridViewDataCheckColumn>
+                                            <dx:GridViewDataCheckColumn VisibleIndex="13" FieldName="PerActivo" CellStyle-HorizontalAlign="Center"
+                                                HeaderStyle-HorizontalAlign="Center" Caption="Activo" Visible="true" PropertiesCheckEdit-DisplayTextChecked="Activo"
+                                                PropertiesCheckEdit-DisplayTextUnchecked="Inactivo" EditCellStyle-HorizontalAlign="Left"
+                                                Width="30px">
+                                                <EditFormSettings VisibleIndex="0" Visible="true" />
+                                                <PropertiesCheckEdit>
+                                                </PropertiesCheckEdit>
+                                                <EditCellStyle HorizontalAlign="Left">
+                                                </EditCellStyle>
+                                                <HeaderStyle HorizontalAlign="Center" />
+                                                <CellStyle HorizontalAlign="Center">
+                                                </CellStyle>
+                                            </dx:GridViewDataCheckColumn>
+                                        </Columns>
+                                        <SettingsEditing EditFormColumnCount="2" Mode="EditFormAndDisplayRow" PopupEditFormWidth="100px" />
+                                        <SettingsPager AlwaysShowPager="True" EllipsisMode="OutsideNumeric" PageSize="10">
+                                        </SettingsPager>
+                                        <Settings ShowTitlePanel="true" ShowFilterRow="true" />
+                                        <SettingsText Title="Personas" />
+                                        <SettingsLoadingPanel ImagePosition="Top" Text="Cargando&hellip;" />
+                                        <SettingsCommandButton>
+                                            <ClearFilterButton Text="Limpiar" ButtonType="Link" />
+                                            <NewButton Text="Nuevo">
+                                                <Image Url="../images/nuevo32.png">
+                                                </Image>
+                                            </NewButton>
+                                            <EditButton Text="Editar">
+                                                <Image Url="../images/modificar32.png">
+                                                </Image>
+                                            </EditButton>
+                                            <CancelButton Text="Cancelar">
+                                                <Image Url="../images/cancel32.png">
+                                                </Image>
+                                            </CancelButton>
+                                            <UpdateButton Text="Actualizar">
+                                                <Image Url="../images/guardar32.png">
+                                                </Image>
+                                            </UpdateButton>
+                                        </SettingsCommandButton>
+                                        <Styles>
+                                            <Header Font-Bold="True">
+                                            </Header>
+                                            <TitlePanel Font-Bold="True" Font-Names="Arial" Font-Size="Medium" 
+                                                ForeColor="#42559C">
+                                            </TitlePanel>
+                                        </Styles>
+                                    </dx:ASPxGridView>
+                                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ASNICConnectionStringFiltro %>"
+                                        SelectCommand="Seguridad.spSelFiltraPersonas " 
+                                        SelectCommandType="StoredProcedure">
+                                    </asp:SqlDataSource>
+                                </td>
+                            </tr>
+                        </table>
+                    </asp:View>
+                    <asp:View runat="server" ID="View2">
+                        <table align="center" width="900px">
+                            <tr>
+                                <td style="padding: 10px;">
+                                    <dx:ASPxPageControl ID="ASPxPageControl1" runat="server" ActiveTabIndex="0" >
+                                        <TabPages>
+                                            <dx:TabPage Text="Rol">
+                                                <ContentCollection>
+                                                    <dx:ContentControl runat="server">
+                                                        <table align="center" width="900px">
+                                                            <tr>
+                                                                <td style="padding: 10px; border: 1px solid #42559C;" align="left">
+                                                                    <table>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <dx:ASPxButton ID="btnCancelar" runat="server" Text="Cancelar" >
+                                                                                </dx:ASPxButton>
+                                                                            </td>
+                                                                            <td>
+                                                                                <dx:ASPxButton ID="btnNuevo" runat="server" Text="Nuevo" >
+                                                                                </dx:ASPxButton>
+                                                                            </td>
+                                                                            <td>
+                                                                                <dx:ASPxButton ID="btnEliminar" runat="server" Text="Editar" >
+                                                                                </dx:ASPxButton>
+                                                                            </td>
+                                                                            <td>
+                                                                                <dx:ASPxButton ID="btnAceptar" runat="server" Text="Aceptar" >
+                                                                                </dx:ASPxButton>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="border: 1px solid #42559C; padding-left: 10px; padding-right: 10px;">
+                                                                    <table cellspacing="3" cellpadding="2" style="height: 120px">
+                                                                        <tr>
+                                                                            <td style="padding: 2px; width: 139px" align="left">
+                                                                                <dx:ASPxLabel ID="ASPxLabel1" runat="server" Text="Clave" Visible="False" 
+                                                                                    Font-Bold="False" >
+                                                                                </dx:ASPxLabel>
+                                                                            </td>
+                                                                            <td align="left" style="padding: 2px">
+                                                                                <dx:ASPxTextBox ID="txtClaveRolPrincipal" runat="server" Width="170px" Visible="False" >
+                                                                                </dx:ASPxTextBox>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td style="padding: 2px; width: 139px" align="left">
+                                                                                <dx:ASPxLabel ID="ASPxLabel2" runat="server" Text="Rol" Font-Bold="False" >
+                                                                                </dx:ASPxLabel>
+                                                                            </td>
+                                                                            <td align="left" style="padding: 2px">
+                                                                                <dx:ASPxComboBox ID="cboRol" runat="server" ValueType="System.String" Width="300px" AutoPostBack="True" > 
+                                                                                </dx:ASPxComboBox>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                           <td style="padding: 2px; width: 139px" align="left">
+                                                                                <dx:ASPxLabel ID="ASPxLabel3" runat="server" Text="Empresa" Font-Bold="False" >
+                                                                                </dx:ASPxLabel>
+                                                                            </td>
+                                                                            <td align="left" style="padding: 2px">
+                                                                                <dx:ASPxComboBox ID="cboEmpresa" runat="server" ValueType="System.String" Width="400px" > 
+                                                                                </dx:ASPxComboBox>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td style="padding: 2px; width: 139px" align="left">
+                                                                                <dx:ASPxLabel ID="ASPxLabel4" runat="server" Text="Caracteristica" 
+                                                                                    Font-Bold="False" >
+                                                                                </dx:ASPxLabel>
+                                                                            </td>
+                                                                            <td align="left" style="padding: 2px">
+                                                                                <dx:ASPxComboBox ID="cboCaracteristica" runat="server"   ValueType="System.String" Width="300px" >
+                                                                                </dx:ASPxComboBox>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                            <br />
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </dx:ContentControl>
+                                                </ContentCollection>
+                                            </dx:TabPage>
+                                            <dx:TabPage Text="Caracteristicas">
+                                                <ContentCollection>
+                                                    <dx:ContentControl runat="server">
+                                                        <table style="width: 100%" align="center">
+                                                            <tr>
+                                                                <td align="center">
+                                                                    <dx:ASPxGridView ID="GridViewCaracteristicas" runat="server" 
+                                                                        AutoGenerateColumns="False" ClientIDMode="AutoID" ClientInstanceName="grid" 
+                                                                        DataSourceID="SqlDataSource2" KeyFieldName="PerCarIdenRolId" 
+                                                                        Settings-ShowGroupedColumns="true" Settings-ShowGroupPanel="True" 
+                                                                        SettingsLoadingPanel-Text="Cargando…" SettingsPager-AlwaysShowPager="True" 
+                                                                        SettingsPager-EllipsisMode="OutsideNumeric" SettingsPager-Mode="ShowPager" 
+                                                                        SettingsPager-NumericButtonCount="10" SettingsPager-PageSize="5" 
+                                                                        Width="900px" >
+                                                                        <Columns>
+                                                                            <dx:GridViewCommandColumn ButtonType="Image" Caption=" " 
+                                                                                ShowDeleteButton="True" ShowEditButton="True" ShowNewButton="True" ShowClearFilterButton="True" VisibleIndex="1" Width="90px" />
+                                                                            <dx:GridViewDataColumn Caption="PerCarIdenRolId" CellStyle-HorizontalAlign="Center" 
+                                                                                EditCellStyle-HorizontalAlign="Left" FieldName="PerCarIdenRolId" 
+                                                                                HeaderStyle-HorizontalAlign="Center" VisibleIndex="5" Width="50px" Visible="False">
+                                                                                <EditFormSettings Visible="False" VisibleIndex="0" />
+                                                                                <EditCellStyle HorizontalAlign="Left">
+                                                                                </EditCellStyle>
+                                                                                <HeaderStyle HorizontalAlign="Center" />
+                                                                                <CellStyle HorizontalAlign="Center">
+                                                                                </CellStyle>
+                                                                            </dx:GridViewDataColumn>
+                                                                            <dx:GridViewDataColumn Caption="PerCarId" CellStyle-HorizontalAlign="Center" 
+                                                                                EditCellStyle-HorizontalAlign="Left" FieldName="PerCarId" 
+                                                                                HeaderStyle-HorizontalAlign="Center" VisibleIndex="6" Width="50px" Visible="False">
+                                                                                <EditFormSettings Visible="false" VisibleIndex="0" />
+                                                                                <EditCellStyle HorizontalAlign="Left">
+                                                                                </EditCellStyle>
+                                                                                <HeaderStyle HorizontalAlign="Center" />
+                                                                                <CellStyle HorizontalAlign="Left">
+                                                                                </CellStyle>
+                                                                            </dx:GridViewDataColumn>
+                                                                            <dx:GridViewDataColumn Caption="Caracteristica" 
+                                                                                CellStyle-HorizontalAlign="Center" EditCellStyle-HorizontalAlign="Left" 
+                                                                                FieldName="PerCarConcepto" HeaderStyle-HorizontalAlign="Center" 
+                                                                                VisibleIndex="7">
+                                                                                <EditFormSettings Visible="false" VisibleIndex="0" />
+                                                                                <EditCellStyle HorizontalAlign="Left">
+                                                                                </EditCellStyle>
+                                                                                <HeaderStyle HorizontalAlign="Center" />
+                                                                                <CellStyle HorizontalAlign="Left">
+                                                                                </CellStyle>
+                                                                            </dx:GridViewDataColumn>
+                                                                            <dx:GridViewDataComboBoxColumn FieldName="PerCarId" VisibleIndex="2" Name="cboCaracteristicas"
+                                                                                Visible="False" Settings-AllowDragDrop="Default" Caption="Concepto" CellStyle-HorizontalAlign="Center">
+                                                                                <EditFormSettings VisibleIndex="0" Visible="True" />
+                                                                                <PropertiesComboBox TextField="PerCarConcepto" ValueField="PerCarId" EnableSynchronization="False"
+                                                                                    EnableIncrementalFiltering="True" DataSourceID="SqlDataSource22"
+                                                                                    DropDownWidth="300px" DropDownStyle="DropDownList" TextFormatString="{1}" EnableCallbackMode="true"
+                                                                                    IncrementalFilteringMode="StartsWith" CallbackPageSize="30">
+                                                                                    <Columns>
+                                                                                        <dx:ListBoxColumn FieldName="PerCarId" Width="50px" Caption="Clave" />
+                                                                                        <dx:ListBoxColumn FieldName="PerCarConcepto" Width="500px" Caption="Caracteristica" />
+                                                                                    </Columns>
+                                                                                </PropertiesComboBox>
+                                                                                <HeaderStyle HorizontalAlign="Center"></HeaderStyle>
+                                                                                <CellStyle HorizontalAlign="Left" VerticalAlign="Middle">
+                                                                                </CellStyle>
+                                                                            </dx:GridViewDataComboBoxColumn>
+                                                                        </Columns>
+                                                                        <SettingsEditing EditFormColumnCount="2" Mode="EditForm" 
+                                                                            PopupEditFormWidth="100px" />
+                                                                        <SettingsBehavior ColumnResizeMode="Control" />
+                                                                        <SettingsPager AlwaysShowPager="True" EllipsisMode="OutsideNumeric" 
+                                                                            PageSize="10">
+                                                                        </SettingsPager>
+                                                                        <Settings ShowFilterRow="true" ShowTitlePanel="true" />
+                                                                        <SettingsText Title="Caracteristicas" />
+                                                                        <SettingsLoadingPanel ImagePosition="Top" Text="Cargando…" />
+                                                                        <SettingsCommandButton>
+                                                                            <ClearFilterButton Text="Limpiar" ButtonType="Link" />
+                                                                            <NewButton Text="Nuevo">
+                                                                                <Image Url="../images/nuevo32.png">
+                                                                                </Image>
+                                                                            </NewButton>
+                                                                            <DeleteButton Text="Eliminar">
+                                                                                <Image Url="../images/eliminar32.png">
+                                                                                </Image>                                                                            
+                                                                            </DeleteButton>
+                                                                            <CancelButton Text="Cancelar">
+                                                                                <Image Url="../images/cancel32.png">
+                                                                                </Image>
+                                                                            </CancelButton>
+                                                                            <UpdateButton Text="Actualizar">
+                                                                                <Image Url="../images/guardar32.png">
+                                                                                </Image>
+                                                                            </UpdateButton>
+                                                                        </SettingsCommandButton>
+                                                                        <Styles>
+                                                                            <Header Font-Bold="True">
+                                                                            </Header>
+                                                                            <TitlePanel Font-Bold="True" Font-Names="Arial" Font-Size="Medium" 
+                                                                                ForeColor="#42559C">
+                                                                            </TitlePanel>
+                                                                        </Styles>
+                                                                    </dx:ASPxGridView>
+                                                                    <asp:SqlDataSource ID="SqlDataSource2" runat="server" 
+                                                                        ConnectionString="<%$ ConnectionStrings:ASNICConnectionStringFiltro %>" 
+                                                                        SelectCommand="Seguridad.spSelFiltraPersonasCaracteristicasIdentidadRol" SelectCommandType="StoredProcedure"> 
+                                                                        <SelectParameters>
+                                                                            <asp:ControlParameter ControlID="lblPersonaPerId" Name="PerId" Type="Int64" />
+                                                                        </SelectParameters>
+                                                                    </asp:SqlDataSource>
+                                                                    <asp:SqlDataSource ID="SqlDataSource22" runat="server"
+                                                                        ConnectionString="<%$ ConnectionStrings:ASNICConnectionStringFiltro %>" SelectCommand="Seguridad.spSelPersonasCaracteristicasOtrasActivo"
+                                                                        SelectCommandType="StoredProcedure">
+                                                                        <SelectParameters>
+                                                                            <asp:ControlParameter ControlID="lblPersonaPerId" Name="PerId" Type="Int64" />
+                                                                        </SelectParameters>
+                                                                   </asp:SqlDataSource>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </dx:ContentControl>
+                                                </ContentCollection>
+                                            </dx:TabPage>
+                                            <dx:TabPage Text="Paginas">
+                                                <ContentCollection>
+                                                    <dx:ContentControl runat="server">
+                                                        <table style="width: 100%" align="center">
+                                                            <tr>
+                                                                <td align="center">
+                                                                    <dx:ASPxGridView ID="GridViewPaginas" runat="server" 
+                                                                        AutoGenerateColumns="False" ClientIDMode="AutoID" ClientInstanceName="grid" 
+                                                                        DataSourceID="SqlDataSource3" KeyFieldName="PagId" 
+                                                                        Settings-ShowGroupedColumns="true" Settings-ShowGroupPanel="True" 
+                                                                        SettingsLoadingPanel-Text="Cargando…" SettingsPager-AlwaysShowPager="True" 
+                                                                        SettingsPager-EllipsisMode="OutsideNumeric" SettingsPager-Mode="ShowPager" 
+                                                                        SettingsPager-NumericButtonCount="10" SettingsPager-PageSize="5" 
+                                                                        Width="1000px" >
+                                                                        <Columns>
+                                                                            <dx:GridViewCommandColumn ButtonType="Image" Caption=" " 
+                                                                                ShowDeleteButton="True" ShowEditButton="True" ShowNewButton="True" ShowClearFilterButton="True"
+                                                                                VisibleIndex="1" Width="70px" />
+                                                                            <dx:GridViewDataColumn Caption="PagId" CellStyle-HorizontalAlign="Center" 
+                                                                                EditCellStyle-HorizontalAlign="Left" FieldName="PagId" 
+                                                                                HeaderStyle-HorizontalAlign="Center" VisibleIndex="10" Width="50px" Visible="false">
+                                                                                <EditFormSettings Visible="False" VisibleIndex="0" />
+                                                                                <EditCellStyle HorizontalAlign="Left">
+                                                                                </EditCellStyle>
+                                                                                <HeaderStyle HorizontalAlign="Center" />
+                                                                                <CellStyle HorizontalAlign="Center">
+                                                                                </CellStyle>
+                                                                            </dx:GridViewDataColumn>
+                                                                            <dx:GridViewDataColumn Caption="Nombre" 
+                                                                                CellStyle-HorizontalAlign="Center" EditCellStyle-HorizontalAlign="Left" 
+                                                                                FieldName="Nombre" HeaderStyle-HorizontalAlign="Center" 
+                                                                                VisibleIndex="11" Width="100px">
+                                                                                <EditFormSettings Visible="false" VisibleIndex="0" />
+                                                                                <EditCellStyle HorizontalAlign="Left">
+                                                                                </EditCellStyle>
+                                                                                <HeaderStyle HorizontalAlign="Center" />
+                                                                                <CellStyle HorizontalAlign="Left">
+                                                                                </CellStyle>
+                                                                            </dx:GridViewDataColumn>
+                                                                            <dx:GridViewDataColumn Caption="Pagina" 
+                                                                                CellStyle-HorizontalAlign="Center" EditCellStyle-HorizontalAlign="Left" 
+                                                                                FieldName="Pagina" HeaderStyle-HorizontalAlign="Center" 
+                                                                                VisibleIndex="12">
+                                                                                <EditFormSettings Visible="false" VisibleIndex="0" />
+                                                                                <EditCellStyle HorizontalAlign="Left">
+                                                                                </EditCellStyle>
+                                                                                <HeaderStyle HorizontalAlign="Center" />
+                                                                                <CellStyle HorizontalAlign="Left">
+                                                                                </CellStyle>
+                                                                            </dx:GridViewDataColumn>
+                                                                            <dx:GridViewDataColumn Caption="Modulo" CellStyle-HorizontalAlign="Center" 
+                                                                                EditCellStyle-HorizontalAlign="Left" FieldName="Modulo" 
+                                                                                HeaderStyle-HorizontalAlign="Center" VisibleIndex="13" Width="250px" Visible="False">
+                                                                                <EditFormSettings Visible="false" VisibleIndex="0" />
+                                                                                <EditCellStyle HorizontalAlign="Left">
+                                                                                </EditCellStyle>
+                                                                                <HeaderStyle HorizontalAlign="Center" />
+                                                                                <CellStyle HorizontalAlign="Left">
+                                                                                </CellStyle>
+                                                                            </dx:GridViewDataColumn>
+                                                                            <dx:GridViewDataComboBoxColumn FieldName="TipoAccesoId" VisibleIndex="14" Name="cboTipoAcceso"
+                                                                                Settings-AllowDragDrop="Default" ReadOnly="False" Caption="Tipo Acceso" CellStyle-HorizontalAlign="Center"
+                                                                                Visible="False" Width="100px">
+                                                                                <EditFormSettings VisibleIndex="14" Visible="true" CaptionLocation="Near" />
+                                                                                <PropertiesComboBox TextField="TipoAccesoConcepto" ValueField="TipoAccesoId" EnableSynchronization="False"
+                                                                                    EnableIncrementalFiltering="True" DataSourceID="SqlDataSource33">
+                                                                                </PropertiesComboBox>
+                                                                                <HeaderStyle HorizontalAlign="Center"></HeaderStyle>
+                                                                                <CellStyle HorizontalAlign="Center">
+                                                                                </CellStyle>
+                                                                            </dx:GridViewDataComboBoxColumn>
+                                                                            <dx:GridViewDataColumn Caption="Tipo de Acceso" CellStyle-HorizontalAlign="Center" 
+                                                                                EditCellStyle-HorizontalAlign="Left" FieldName="TipoAccesoConcepto" 
+                                                                                HeaderStyle-HorizontalAlign="Center" VisibleIndex="15" Width="170px" 
+                                                                                Visible="true">
+                                                                                <EditFormSettings Visible="false" VisibleIndex="15" />
+                                                                                <EditCellStyle HorizontalAlign="Left">
+                                                                                </EditCellStyle>
+                                                                                <HeaderStyle HorizontalAlign="Center" />
+                                                                                <CellStyle HorizontalAlign="Left">
+                                                                                </CellStyle>
+                                                                            </dx:GridViewDataColumn>
+                                                                            <dx:GridViewDataCheckColumn VisibleIndex="16" FieldName="VincularPerPagId" CellStyle-HorizontalAlign="Center"
+                                                                                HeaderStyle-HorizontalAlign="Center" Caption="Activo" Visible="False" PropertiesCheckEdit-DisplayTextChecked="Activo"
+                                                                                PropertiesCheckEdit-DisplayTextUnchecked="Inactivo" EditCellStyle-HorizontalAlign="Left"
+                                                                                Width="50px">
+                                                                                <EditFormSettings VisibleIndex="16" Visible="true" />
+                                                                                <PropertiesCheckEdit>
+                                                                                </PropertiesCheckEdit>
+                                                                                <EditCellStyle HorizontalAlign="Left">
+                                                                                </EditCellStyle>
+                                                                                <HeaderStyle HorizontalAlign="Center" />
+                                                                                <CellStyle HorizontalAlign="Center">
+                                                                                </CellStyle>
+                                                                            </dx:GridViewDataCheckColumn>
+                                                                        </Columns>
+                                                                        <SettingsEditing EditFormColumnCount="2" Mode="EditFormAndDisplayRow" 
+                                                                            PopupEditFormWidth="100px" />
+                                                                        <SettingsBehavior ColumnResizeMode="Control" />
+                                                                        <SettingsPager AlwaysShowPager="True" EllipsisMode="OutsideNumeric" 
+                                                                            PageSize="10">
+                                                                        </SettingsPager>
+                                                                        <Settings ShowFilterRow="true" ShowTitlePanel="true" />
+                                                                        <SettingsText Title="Paginas" />
+                                                                        <SettingsLoadingPanel ImagePosition="Top" Text="Cargando…" />
+                                                                        <SettingsCommandButton>
+                                                                            <ClearFilterButton Text="Limpiar" ButtonType="Link" />
+                                                                            <EditButton Text="Editar">
+                                                                                <Image Url="../images/modificar32.png">
+                                                                                </Image>
+                                                                            </EditButton>
+                                                                            <CancelButton Text="Cancelar">
+                                                                                <Image Url="../images/cancel32.png">
+                                                                                </Image>
+                                                                            </CancelButton>
+                                                                            <UpdateButton Text="Actualizar">
+                                                                                <Image Url="../images/guardar32.png">
+                                                                                </Image>
+                                                                            </UpdateButton>
+                                                                        </SettingsCommandButton>
+                                                                        <Styles>
+                                                                            <Header Font-Bold="True">
+                                                                            </Header>
+                                                                            <TitlePanel Font-Bold="True" Font-Names="Arial" Font-Size="Medium" 
+                                                                                ForeColor="#42559C">
+                                                                            </TitlePanel>
+                                                                        </Styles>
+                                                                    </dx:ASPxGridView>
+                                                                    <asp:SqlDataSource ID="SqlDataSource3" runat="server" 
+                                                                        ConnectionString="<%$ ConnectionStrings:ASNICConnectionStringFiltro %>" 
+                                                                        SelectCommand="Seguridad.spSelPersonaAccesoPagina" SelectCommandType="StoredProcedure"> 
+                                                                        <SelectParameters>
+                                                                            <asp:ControlParameter ControlID="lblPersonaPerId" Name="PerId" Type="Int64" />
+                                                                        </SelectParameters>
+                                                                    </asp:SqlDataSource>
+                                                                    <asp:SqlDataSource ID="SqlDataSource33" runat="server" ConnectionString="<%$ ConnectionStrings:ASNICConnectionStringFiltro %>"
+                                                                        SelectCommand="Seguridad.spSelTipoAccesoActivo" SelectCommandType="StoredProcedure">
+                                                                    </asp:SqlDataSource>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </dx:ContentControl>
+                                                </ContentCollection>
+                                            </dx:TabPage>
+                                            <dx:TabPage Text="Sucursales">
+                                                <ContentCollection>
+                                                    <dx:ContentControl runat="server">
+                                                        <table style="width: 100%"  align="center">
+                                                            <tr>
+                                                                <td align="center">
+                                                                    <dx:ASPxGridView ID="GridViewSucursales" runat="server" 
+                                                                        AutoGenerateColumns="False" ClientIDMode="AutoID" ClientInstanceName="grid" 
+                                                                        DataSourceID="SqlDataSource4" KeyFieldName="EmpSucId" 
+                                                                        Settings-ShowGroupedColumns="true" Settings-ShowGroupPanel="True" 
+                                                                        SettingsLoadingPanel-Text="Cargando…" SettingsPager-AlwaysShowPager="True" 
+                                                                        SettingsPager-EllipsisMode="OutsideNumeric" SettingsPager-Mode="ShowPager" 
+                                                                        SettingsPager-NumericButtonCount="10" SettingsPager-PageSize="5" 
+                                                                        Width="900px" >
+                                                                        <Columns>
+                                                                            <dx:GridViewCommandColumn ButtonType="Image" Caption=" " 
+                                                                                ShowDeleteButton="True" ShowEditButton="True" ShowNewButton="True" ShowClearFilterButton="true"
+                                                                                VisibleIndex="1" Width="100px" />
+                                                                            <dx:GridViewDataColumn Caption="EmpSucId" CellStyle-HorizontalAlign="Center" 
+                                                                                EditCellStyle-HorizontalAlign="Left" FieldName="EmpSucId" 
+                                                                                HeaderStyle-HorizontalAlign="Center" VisibleIndex="10" Width="50px" Visible="false">
+                                                                                <EditFormSettings Visible="False" VisibleIndex="0" />
+                                                                                <EditCellStyle HorizontalAlign="Left">
+                                                                                </EditCellStyle>
+                                                                                <HeaderStyle HorizontalAlign="Center" />
+                                                                                <CellStyle HorizontalAlign="Center">
+                                                                                </CellStyle>
+                                                                            </dx:GridViewDataColumn>
+                                                                            <dx:GridViewDataColumn Caption="Sucursal" 
+                                                                                CellStyle-HorizontalAlign="Center" EditCellStyle-HorizontalAlign="Left" 
+                                                                                FieldName="EmpSucNombre" HeaderStyle-HorizontalAlign="Center" 
+                                                                                VisibleIndex="11" ReadOnly="True">
+                                                                                <EditFormSettings Visible="false" VisibleIndex="0" />
+                                                                                <EditCellStyle HorizontalAlign="Left">
+                                                                                </EditCellStyle>
+                                                                                <HeaderStyle HorizontalAlign="Center" />
+                                                                                <CellStyle HorizontalAlign="Left">
+                                                                                </CellStyle>
+                                                                            </dx:GridViewDataColumn>
+                                                                            <dx:GridViewDataCheckColumn VisibleIndex="16" FieldName="HabilitaVincular" CellStyle-HorizontalAlign="Center"
+                                                                                HeaderStyle-HorizontalAlign="Center" Caption="Vincular" Visible="true" PropertiesCheckEdit-DisplayTextChecked="Activo"
+                                                                                PropertiesCheckEdit-DisplayTextUnchecked="Inactivo" EditCellStyle-HorizontalAlign="Left"
+                                                                                Width="170px">
+                                                                                <EditFormSettings VisibleIndex="16" Visible="true" />
+                                                                                <PropertiesCheckEdit>
+                                                                                </PropertiesCheckEdit>
+                                                                                <EditCellStyle HorizontalAlign="Center">
+                                                                                </EditCellStyle>
+                                                                                <HeaderStyle HorizontalAlign="Center" />
+                                                                                <CellStyle HorizontalAlign="Center">
+                                                                                </CellStyle>
+                                                                            </dx:GridViewDataCheckColumn>
+                                                                        </Columns>
+                                                                        <SettingsEditing EditFormColumnCount="2" Mode="Inline" 
+                                                                            PopupEditFormWidth="150px" />
+                                                                        <SettingsBehavior ColumnResizeMode="Control" />
+                                                                        <SettingsPager AlwaysShowPager="True" EllipsisMode="OutsideNumeric" 
+                                                                            PageSize="10">
+                                                                        </SettingsPager>
+                                                                        <Settings ShowFilterRow="true" ShowTitlePanel="true" />
+                                                                        <SettingsText Title="Sucursales" />
+                                                                        <SettingsLoadingPanel ImagePosition="Top" Text="Cargando…" />
+                                                                        <SettingsCommandButton>
+                                                                            <ClearFilterButton Text="Limpiar" ButtonType="Link" />
+                                                                            <EditButton Text="Editar">
+                                                                                <Image Url="../images/modificar32.png">
+                                                                                </Image>
+                                                                            </EditButton>
+                                                                            <CancelButton Text="Cancelar">
+                                                                                <Image Url="../images/cancel32.png">
+                                                                                </Image>
+                                                                            </CancelButton>
+                                                                            <UpdateButton Text="Actualizar">
+                                                                                <Image Url="../images/guardar32.png">
+                                                                                </Image>
+                                                                            </UpdateButton>
+                                                                        </SettingsCommandButton>
+                                                                        <Styles>
+                                                                            <Header Font-Bold="True">
+                                                                            </Header>
+                                                                            <TitlePanel Font-Bold="True" Font-Names="Arial" Font-Size="Medium" 
+                                                                                ForeColor="#42559C">
+                                                                            </TitlePanel>
+                                                                        </Styles>
+                                                                    </dx:ASPxGridView>
+                                                                    <asp:SqlDataSource ID="SqlDataSource4" runat="server" ConnectionString="<%$ ConnectionStrings:ASNICConnectionStringFiltro %>"
+                                                                        SelectCommand="Seguridad.spSelPersonaEmpresaSucursal" SelectCommandType="StoredProcedure">
+                                                                        <SelectParameters>
+                                                                            <asp:ControlParameter ControlID="lblPersonaPerId" DefaultValue="0" Name="PerId" PropertyName="Text" Type="Int32" />
+                                                                        </SelectParameters>
+                                                                    </asp:SqlDataSource>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </dx:ContentControl>
+                                                </ContentCollection>
+                                            </dx:TabPage>
+                                        </TabPages>
+                                    </dx:ASPxPageControl>
+                                </td>
+                            </tr>
+                        </table>
+                    </asp:View>
+                </asp:MultiView>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              
+            </td>
+        </tr>
+    </table>

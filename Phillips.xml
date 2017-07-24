@@ -1,0 +1,1057 @@
+<?xml version='1.0' encoding='utf-8' ?>
+                                                    <solicitarRecibirCoveServicio>
+                                                        <comprobantes>
+                                                            <C601PATEN>3649</C601PATEN> 
+                                                            <C601ADUSEC>240</C601ADUSEC>
+                                                            <C601TIPOPE>TOCE.EXP</C601TIPOPE>
+                                                            <C602PATEN>3649</C602PATEN>
+                                                             <D601FECEXP></D601FECEXP>
+                                                            <M601OBSERV />
+                                                            <C603RFC>RPI140509NN2</C603RFC>
+                                                            <C601TIPFIG>1</C601TIPFIG>
+                                                            <C601EMAIL>exportacion@tramitaciones.com</C601EMAIL>
+                                                            <C601FACDORI>PHIL3272FG.</C601FACDORI>
+                                                            <factura>
+                                                                <I604CERTORI>0</I604CERTORI>
+                                                                <I604SUBDIV>0</I604SUBDIV>
+                                                                <C604CVEINC>DAP</C604CVEINC>
+                                                                <C604VINCU>S</C604VINCU>
+                                                                <C604MONFAC>USD</C604MONFAC>
+                                                                <F604VALMEX>115070.98</F604VALMEX>
+                                                                <F604FACMEX>1.0000000</F604FACMEX>
+                                                                <F604VALDOL>115070.98</F604VALDOL>
+                                                                <C604PAIS>MEX</C604PAIS>
+                                                            </factura>
+                                                            <emisor>
+                                                                <C607CVEAM3>R.A.P</C607CVEAM3>
+                                                                <I607TIPIDE>1</I607TIPIDE>
+                                                                <C607IDENTIF>RPI140509NN2</C607IDENTIF>
+                                                                <C607APPAT />
+                                                                <C607APMAT />
+                                                                <C607NOM>R.A. PHILLIPS INDUSTRIES DE MEXICO S. DE R.L. DE C.V.</C607NOM>
+                                                                <domicilio>
+                                                                    <C607CALLE> AV. BOB PHILLIPS</C607CALLE>
+                                                                    <C607NUMEXT>755</C607NUMEXT>
+                                                                    <C607NUMINT />
+                                                                    <C607COLONIA> </C607COLONIA>
+                                                                    <C607LOCALI />
+                                                                    <C607MCPIO>COL. EL LLANO,ARTEAGA</C607MCPIO>
+                                                                    <C607ESTADO>CO</C607ESTADO>
+                                                                    <C607PAIS>MEX</C607PAIS>
+                                                                    <C607CODPOS>25350</C607CODPOS>
+                                                                </domicilio>
+                                                            </emisor>
+                                                            <destinatario>
+                                                                <C608CVEAM3>R.A PHILLIPS INDUSTRIES, INC.</C608CVEAM3>
+                                                                <I608TIPIDE>0</I608TIPIDE>
+                                                                <C608IDENTIF>95-2596625</C608IDENTIF>
+                                                                <C608APPAT />
+                                                                <C608APMAT />
+                                                                <C608NOM>PHILLIPS INDUSTRIES</C608NOM>
+                                                                <domicilio>
+                                                                    <C608CALLE> BURKE STREET </C608CALLE>
+                                                                    <C608NUMEXT>1</C608NUMEXT>
+                                                                    <C608NUMINT>12012</C608NUMINT>
+                                                                    <C608COLONIA />
+                                                                    <C608LOCALI />
+                                                                    <C608MCPIO>SANTA FE SPRINGS</C608MCPIO>
+                                                                    <C608ESTADO>CA</C608ESTADO>
+                                                                    <C608PAIS>USA</C608PAIS>
+                                                                    <C608CODPOS>0670</C608CODPOS>
+                                                                </domicilio>
+                                                            </destinatario><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>225</F605CANUMC>
+                                                                                            <F605VALUNI>.6</F605VALUNI>
+                                                                                            <F605VALTOT>           2359.80</F605VALTOT>
+                                                                                            <F605VALDOL>           2359.80</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>108</F605CANUMC>
+                                                                                            <F605VALUNI>6.96</F605VALUNI>
+                                                                                            <F605VALTOT>         12960.52</F605VALTOT>
+                                                                                            <F605VALDOL>         12960.52</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>125</F605CANUMC>
+                                                                                            <F605VALUNI>1.7</F605VALUNI>
+                                                                                            <F605VALTOT>           3743.25</F605VALTOT>
+                                                                                            <F605VALDOL>           3743.25</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>33</F605CANUMC>
+                                                                                            <F605VALUNI>.12</F605VALUNI>
+                                                                                            <F605VALTOT>              142.08</F605VALTOT>
+                                                                                            <F605VALDOL>              142.08</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>65</F605CANUMC>
+                                                                                            <F605VALUNI>.18</F605VALUNI>
+                                                                                            <F605VALTOT>              195.55</F605VALTOT>
+                                                                                            <F605VALDOL>              195.55</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>15</F605CANUMC>
+                                                                                            <F605VALUNI>4.18</F605VALUNI>
+                                                                                            <F605VALTOT>              500.53</F605VALTOT>
+                                                                                            <F605VALDOL>              500.53</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>100</F605CANUMC>
+                                                                                            <F605VALUNI>4.68</F605VALUNI>
+                                                                                            <F605VALTOT>           6165.84</F605VALTOT>
+                                                                                            <F605VALDOL>           6165.84</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>100</F605CANUMC>
+                                                                                            <F605VALUNI>1.43</F605VALUNI>
+                                                                                            <F605VALTOT>           4337.34</F605VALTOT>
+                                                                                            <F605VALDOL>           4337.34</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>100</F605CANUMC>
+                                                                                            <F605VALUNI>7.61</F605VALUNI>
+                                                                                            <F605VALTOT>           3810.18</F605VALTOT>
+                                                                                            <F605VALDOL>           3810.18</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>100</F605CANUMC>
+                                                                                            <F605VALUNI>.81</F605VALUNI>
+                                                                                            <F605VALTOT>              525.78</F605VALTOT>
+                                                                                            <F605VALDOL>              525.78</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>100</F605CANUMC>
+                                                                                            <F605VALUNI>.82</F605VALUNI>
+                                                                                            <F605VALTOT>              665.16</F605VALTOT>
+                                                                                            <F605VALDOL>              665.16</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>50</F605CANUMC>
+                                                                                            <F605VALUNI>.77</F605VALUNI>
+                                                                                            <F605VALTOT>              536.13</F605VALTOT>
+                                                                                            <F605VALDOL>              536.13</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>50</F605CANUMC>
+                                                                                            <F605VALUNI>.77</F605VALUNI>
+                                                                                            <F605VALTOT>              536.13</F605VALTOT>
+                                                                                            <F605VALDOL>              536.13</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>81</F605CANUMC>
+                                                                                            <F605VALUNI>.01</F605VALUNI>
+                                                                                            <F605VALTOT>              783.58</F605VALTOT>
+                                                                                            <F605VALDOL>              783.58</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>25</F605CANUMC>
+                                                                                            <F605VALUNI>0.37</F605VALUNI>
+                                                                                            <F605VALTOT>              357.77</F605VALTOT>
+                                                                                            <F605VALDOL>              357.77</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>25</F605CANUMC>
+                                                                                            <F605VALUNI>1.16</F605VALUNI>
+                                                                                            <F605VALTOT>              385.02</F605VALTOT>
+                                                                                            <F605VALDOL>              385.02</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>81</F605CANUMC>
+                                                                                            <F605VALUNI>.86</F605VALUNI>
+                                                                                            <F605VALTOT>              319.69</F605VALTOT>
+                                                                                            <F605VALDOL>              319.69</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>324</F605CANUMC>
+                                                                                            <F605VALUNI>.55</F605VALUNI>
+                                                                                            <F605VALTOT>           1140.16</F605VALTOT>
+                                                                                            <F605VALDOL>           1140.16</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>81</F605CANUMC>
+                                                                                            <F605VALUNI>6.36</F605VALUNI>
+                                                                                            <F605VALTOT>         10771.12</F605VALTOT>
+                                                                                            <F605VALDOL>         10771.12</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>200</F605CANUMC>
+                                                                                            <F605VALUNI>.67</F605VALUNI>
+                                                                                            <F605VALTOT>           2668.92</F605VALTOT>
+                                                                                            <F605VALDOL>           2668.92</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>81</F605CANUMC>
+                                                                                            <F605VALUNI>5.07</F605VALUNI>
+                                                                                            <F605VALTOT>           1684.52</F605VALTOT>
+                                                                                            <F605VALDOL>           1684.52</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>81</F605CANUMC>
+                                                                                            <F605VALUNI>5.9</F605VALUNI>
+                                                                                            <F605VALTOT>           1777.30</F605VALTOT>
+                                                                                            <F605VALDOL>           1777.30</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>3</F605CANUMC>
+                                                                                            <F605VALUNI>91.33</F605VALUNI>
+                                                                                            <F605VALTOT>              792.11</F605VALTOT>
+                                                                                            <F605VALDOL>              792.11</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>520</F605CANUMC>
+                                                                                            <F605VALUNI>7.39</F605VALUNI>
+                                                                                            <F605VALTOT>         26831.06</F605VALTOT>
+                                                                                            <F605VALDOL>         26831.06</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>520</F605CANUMC>
+                                                                                            <F605VALUNI>8.12</F605VALUNI>
+                                                                                            <F605VALTOT>         13002.91</F605VALTOT>
+                                                                                            <F605VALDOL>         13002.91</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>520</F605CANUMC>
+                                                                                            <F605VALUNI>.46</F605VALUNI>
+                                                                                            <F605VALTOT>           3200.50</F605VALTOT>
+                                                                                            <F605VALDOL>           3200.50</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>4</F605CANUMC>
+                                                                                            <F605VALUNI>3.95</F605VALUNI>
+                                                                                            <F605VALTOT>                77.00</F605VALTOT>
+                                                                                            <F605VALDOL>                77.00</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>25</F605CANUMC>
+                                                                                            <F605VALUNI>1.43</F605VALUNI>
+                                                                                            <F605VALTOT>              739.34</F605VALTOT>
+                                                                                            <F605VALDOL>              739.34</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>4</F605CANUMC>
+                                                                                            <F605VALUNI>69.67</F605VALUNI>
+                                                                                            <F605VALTOT>              936.58</F605VALTOT>
+                                                                                            <F605VALDOL>              936.58</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>4</F605CANUMC>
+                                                                                            <F605VALUNI>1.06</F605VALUNI>
+                                                                                            <F605VALTOT>                61.05</F605VALTOT>
+                                                                                            <F605VALDOL>                61.05</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>3</F605CANUMC>
+                                                                                            <F605VALUNI>7.99</F605VALUNI>
+                                                                                            <F605VALTOT>              322.88</F605VALTOT>
+                                                                                            <F605VALDOL>              322.88</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>20</F605CANUMC>
+                                                                                            <F605VALUNI>5.27</F605VALUNI>
+                                                                                            <F605VALTOT>              421.45</F605VALTOT>
+                                                                                            <F605VALDOL>              421.45</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>1</F605CANUMC>
+                                                                                            <F605VALUNI>4.63</F605VALUNI>
+                                                                                            <F605VALTOT>                75.39</F605VALTOT>
+                                                                                            <F605VALDOL>                75.39</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>75</F605CANUMC>
+                                                                                            <F605VALUNI>7.75</F605VALUNI>
+                                                                                            <F605VALTOT>           7012.13</F605VALTOT>
+                                                                                            <F605VALDOL>           7012.13</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>250</F605CANUMC>
+                                                                                            <F605VALUNI>.17</F605VALUNI>
+                                                                                            <F605VALTOT>           2473.65</F605VALTOT>
+                                                                                            <F605VALDOL>           2473.65</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>100</F605CANUMC>
+                                                                                            <F605VALUNI>.32</F605VALUNI>
+                                                                                            <F605VALTOT>              596.16</F605VALTOT>
+                                                                                            <F605VALDOL>              596.16</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>2</F605CANUMC>
+                                                                                            <F605VALUNI>.15</F605VALUNI>
+                                                                                            <F605VALTOT>                14.21</F605VALTOT>
+                                                                                            <F605VALDOL>                14.21</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>50</F605CANUMC>
+                                                                                            <F605VALUNI>.95</F605VALUNI>
+                                                                                            <F605VALTOT>              203.55</F605VALTOT>
+                                                                                            <F605VALDOL>              203.55</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>150</F605CANUMC>
+                                                                                            <F605VALUNI>.35</F605VALUNI>
+                                                                                            <F605VALTOT>              900.45</F605VALTOT>
+                                                                                            <F605VALDOL>              900.45</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>150</F605CANUMC>
+                                                                                            <F605VALUNI>.13</F605VALUNI>
+                                                                                            <F605VALTOT>           1061.91</F605VALTOT>
+                                                                                            <F605VALDOL>           1061.91</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>18</F605CANUMC>
+                                                                                            <F605VALUNI>.43</F605VALUNI>
+                                                                                            <F605VALTOT>                85.20</F605VALTOT>
+                                                                                            <F605VALDOL>                85.20</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>20</F605CANUMC>
+                                                                                            <F605VALUNI>.81</F605VALUNI>
+                                                                                            <F605VALTOT>              270.76</F605VALTOT>
+                                                                                            <F605VALDOL>              270.76</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>9</F605CANUMC>
+                                                                                            <F605VALUNI>.81</F605VALUNI>
+                                                                                            <F605VALTOT>              121.84</F605VALTOT>
+                                                                                            <F605VALDOL>              121.84</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>35</F605CANUMC>
+                                                                                            <F605VALUNI>.51</F605VALUNI>
+                                                                                            <F605VALTOT>              314.43</F605VALTOT>
+                                                                                            <F605VALDOL>              314.43</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>35</F605CANUMC>
+                                                                                            <F605VALUNI>1.89</F605VALUNI>
+                                                                                            <F605VALTOT>              574.29</F605VALTOT>
+                                                                                            <F605VALDOL>              574.29</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>10</F605CANUMC>
+                                                                                            <F605VALUNI>1.8</F605VALUNI>
+                                                                                            <F605VALTOT>              162.84</F605VALTOT>
+                                                                                            <F605VALDOL>              162.84</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>20</F605CANUMC>
+                                                                                            <F605VALUNI>.81</F605VALUNI>
+                                                                                            <F605VALTOT>              270.76</F605VALTOT>
+                                                                                            <F605VALDOL>              270.76</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>5</F605CANUMC>
+                                                                                            <F605VALUNI>9.97</F605VALUNI>
+                                                                                            <F605VALTOT>              137.79</F605VALTOT>
+                                                                                            <F605VALDOL>              137.79</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>55</F605CANUMC>
+                                                                                            <F605VALUNI>3.61</F605VALUNI>
+                                                                                            <F605VALTOT>           3310.00</F605VALTOT>
+                                                                                            <F605VALDOL>           3310.00</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>18</F605CANUMC>
+                                                                                            <F605VALUNI>1.22</F605VALUNI>
+                                                                                            <F605VALTOT>              278.70</F605VALTOT>
+                                                                                            <F605VALDOL>              278.70</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>6</F605CANUMC>
+                                                                                            <F605VALUNI>.81</F605VALUNI>
+                                                                                            <F605VALTOT>                81.23</F605VALTOT>
+                                                                                            <F605VALDOL>                81.23</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>6</F605CANUMC>
+                                                                                            <F605VALUNI>.81</F605VALUNI>
+                                                                                            <F605VALTOT>                81.23</F605VALTOT>
+                                                                                            <F605VALDOL>                81.23</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>100</F605CANUMC>
+                                                                                            <F605VALUNI>5.38</F605VALUNI>
+                                                                                            <F605VALTOT>           6262.44</F605VALTOT>
+                                                                                            <F605VALDOL>           6262.44</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>25</F605CANUMC>
+                                                                                            <F605VALUNI>5.8</F605VALUNI>
+                                                                                            <F605VALTOT>              545.10</F605VALTOT>
+                                                                                            <F605VALDOL>              545.10</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>100</F605CANUMC>
+                                                                                            <F605VALUNI>6.04</F605VALUNI>
+                                                                                            <F605VALTOT>           2213.52</F605VALTOT>
+                                                                                            <F605VALDOL>           2213.52</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>400</F605CANUMC>
+                                                                                            <F605VALUNI>.58</F605VALUNI>
+                                                                                            <F605VALTOT>           4736.16</F605VALTOT>
+                                                                                            <F605VALDOL>           4736.16</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>230</F605CANUMC>
+                                                                                            <F605VALUNI>0.31</F605VALUNI>
+                                                                                            <F605VALTOT>           3272.39</F605VALTOT>
+                                                                                            <F605VALDOL>           3272.39</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>2</F605CANUMC>
+                                                                                            <F605VALUNI>9.67</F605VALUNI>
+                                                                                            <F605VALTOT>                54.29</F605VALTOT>
+                                                                                            <F605VALDOL>                54.29</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>1</F605CANUMC>
+                                                                                            <F605VALUNI>3.47</F605VALUNI>
+                                                                                            <F605VALTOT>                32.39</F605VALTOT>
+                                                                                            <F605VALDOL>                32.39</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>1</F605CANUMC>
+                                                                                            <F605VALUNI>5.05</F605VALUNI>
+                                                                                            <F605VALTOT>                20.77</F605VALTOT>
+                                                                                            <F605VALDOL>                20.77</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>2</F605CANUMC>
+                                                                                            <F605VALUNI>3.47</F605VALUNI>
+                                                                                            <F605VALTOT>                64.78</F605VALTOT>
+                                                                                            <F605VALDOL>                64.78</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>1</F605CANUMC>
+                                                                                            <F605VALUNI>3.47</F605VALUNI>
+                                                                                            <F605VALTOT>                32.39</F605VALTOT>
+                                                                                            <F605VALDOL>                32.39</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>2</F605CANUMC>
+                                                                                            <F605VALUNI>.43</F605VALUNI>
+                                                                                            <F605VALTOT>                23.27</F605VALTOT>
+                                                                                            <F605VALDOL>                23.27</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>2</F605CANUMC>
+                                                                                            <F605VALUNI>1.15</F605VALUNI>
+                                                                                            <F605VALTOT>              113.57</F605VALTOT>
+                                                                                            <F605VALDOL>              113.57</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>55</F605CANUMC>
+                                                                                            <F605VALUNI>9.31</F605VALUNI>
+                                                                                            <F605VALTOT>           1465.63</F605VALTOT>
+                                                                                            <F605VALDOL>           1465.63</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>570</F605CANUMC>
+                                                                                            <F605VALUNI>.32</F605VALUNI>
+                                                                                            <F605VALTOT>           5757.91</F605VALTOT>
+                                                                                            <F605VALDOL>           5757.91</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>570</F605CANUMC>
+                                                                                            <F605VALUNI>.32</F605VALUNI>
+                                                                                            <F605VALTOT>           5757.91</F605VALTOT>
+                                                                                            <F605VALDOL>           5757.91</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>107</F605CANUMC>
+                                                                                            <F605VALUNI>0.25</F605VALUNI>
+                                                                                            <F605VALTOT>           1513.52</F605VALTOT>
+                                                                                            <F605VALDOL>           1513.52</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>128</F605CANUMC>
+                                                                                            <F605VALUNI>0.25</F605VALUNI>
+                                                                                            <F605VALTOT>           1810.56</F605VALTOT>
+                                                                                            <F605VALDOL>           1810.56</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>2</F605CANUMC>
+                                                                                            <F605VALUNI>00.21</F605VALUNI>
+                                                                                            <F605VALTOT>              276.58</F605VALTOT>
+                                                                                            <F605VALDOL>              276.58</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias><mercancias>
+                                                                                            <M605DSCMCIA>ARNESES PARA USO AUTOMOTRIZ</M605DSCMCIA>
+                                                                                            <C605UNIUMC>EA</C605UNIUMC>
+                                                                                            <C605TIPMON>USD</C605TIPMON>
+                                                                                            <F605CANUMC>68</F605CANUMC>
+                                                                                            <F605VALUNI>3.34</F605VALUNI>
+                                                                                            <F605VALTOT>           4067.03</F605VALTOT>
+                                                                                            <F605VALDOL>           4067.03</F605VALDOL>
+                                                                                            <descripcionesEspecificas>
+                                                                                                <C606MARCA />
+                                                                                                <C606MODELO />
+                                                                                                <C606SUBMOD />
+                                                                                                <C606NUMSER />
+                                                                                            </descripcionesEspecificas>
+                                                                                        </mercancias> </comprobantes>
+                                                                                </solicitarRecibirCoveServicio>

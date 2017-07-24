@@ -1,0 +1,34 @@
+*Busqueda en todos los grids por serial y subserial  20 y 30 op
+*Productividad -  marked = true
+*Agregar al menu productividad rango de fechas
+*Rework -  salvage en todas las paginas
+*Cambio de titulos  en pagina de leaks
+*Cambio de titulos en productividad
+*Cambio de titulos busqueda por serial
+
+*Pagina de setting (editar)
+	-Segundos del timer
+
+-Pagina de usuarios (agregar , editar)
+-Cambiar titulos de columnas en los grids
+-Imagen en vista previa logo kongsber
+-Color letra vista previa azul combinar con el logotipo
+Agregar a productividad la estacion S08
+Tambien cambiar de ST a Op
+
+ST01 = Op20
+ST03 = Op30
+ST05 = Op50
+ST08 = Op40
+ST09 = Op70
+ST19 = Op60
+ST21 = Op100
+ST22 = Op90
+Tampooc vemos datos de ST22 ni ST08
+La descripcion de la ST09 no coincide con la operacion (la tienen como load and lube y es dry side)
+
+
+Paginas a editar
+
+
+
